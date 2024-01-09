@@ -1,0 +1,161 @@
+5.1.2023 - Hey, guys. Today was literally my first day of working on this new game. I’ve already coded the title screen and I’m already on to learning the tile scrolling concept (which is going very well so far).
+
+5.2.2023 - Well, I’m already onto episode 9 of @griffpatch’s tile scrolling tutorial! But I’m using my own assets and I’ve made a lot of modifications to the code as well.
+
+5.3.2023 - I didn’t add much today, but I learned to auto-arrange tiles for the level editor and also made 4 new music tracks! :)
+
+5.4.2023 - I learned to add slopes to the list. And also, @colinmacc loved my profile project! :D
+
+5.5.2023 - I added coins (finally), and fixed a slope problem. I also added wall jumping and sliding (which is working perfectly) and finished making the first three levels (wait, already?!), as well as making the backgrounds.
+
+5.6.2023 - I added the tiles and the background for the circus theme. I couldn’t do much, because I was working on my very slow computer…
+
+5.8.2023 - I added a new enemy called a Magician for the circus theme, inspired by the Magikoopa from Super Mario. I also finished the fourth level. If this was a normal LSPECTRONIZTAR platformer, chances are I’d be done in only a few days. But remember: This is not a normal LSPECTRONIZTAR platformer. This is a TILE-SCROLLING platformer. And I plan to add at least 25 levels.
+
+5.9.2023 - I worked on the fifth level and added portals!
+
+5.11.2023 - I added a new boss called a Boomer. I kind of accidentally made it look like the Thwomp from Super Mario. To add the boss to your own levels, you have to open the editor and press the ‘entities’ key until you get the [BOSS] trigger. Place a trigger somewhere and then press ‘/’ while hovering over it to enter the type of boss it should be. If the trigger has no entered data, it will automatically become a Boomer. When the player is near the trigger, it will go off and summon the Boomer. It comes from the top of the screen and jumps rapidly in an effort to squash the player. If the player touches it (except to jump off its head) even when he’s not in the air, they will die. The Boomer has three hits. I also added panning sounds and finished the fifth level.
+
+5.12.2023 - I added data options for the coins and the Magicians. If the data for a coin contains the word ‘fake,’ it will vanish when the player touches it instead of being collected. If the data for a Magician contains the word ‘nomagic,’ it will not perform any magic towards the player (it will neither shoot fireballs nor teleport, and remain static).
+
+5.15.2023 - I finished programming the Boomer entity.
+
+5.16.2023 - I added dialogue during gameplay. Also renamed the Magicians to Magicomputers (why didn’t I think of that before?).
+
+5.17.2023 - I added a new command for the Magicomputer called ‘noshoot,’ so that a Magicomputer can’t shoot, they can only teleport. They still can hurt you if touched (unless you jump on them from above). Also, spikes will now auto-arrange their direction!
+
+5.18.2023 - I made a new command for the portal called ‘deathroute.’ You need to reach it without dying to be able to enter it. I also added the particles and underwater physics.
+
+5.19.2023 - Today was mostly about enemies. I added a new type of enemy: a fish. They will move towards you, and if they touch you, you die. You can also change the speed of a fish with the command ‘speed[number of speed value]’ (any number above 9 might not work). I also added enemy bounds! Normally, an enemy (robots mostly) will turn around if they’re at the edge of a platform or they’ve run into a wall. The enemy bounds are pretty self-explanatory; you can set your own bounds for the enemies. I also made two new commands for the robot: ‘boundless’ so that the robot can move as far as it wants, and ‘reverse’ so that it faces left on the start instead of right.
+
+5.22.2023 - Did you know that before I started Scratch, I spent my spare time making “novels” about myself using Apple Pages, and they were very creative (though some of the ideas were stolen from other books)? I was thinking maybe I could take a character from those stories and add them to the game. For example, the Wi-Fi Winker (from “The Williams’ vs. the Winkers”). It’s a human-sized smartphone with legs. It zaps electricity at anything electronic and the electronic loses power. Perhaps it could be like the Magicomputer, and shoot stuff at the player. By the way, I tried adding moving platforms, but they didn’t work, because there are no tutorials showing how to make moving platforms for a tile scrolling game!
+
+5.31.2023 - I decided to take matters into my own hands. I figured out my own way of moving platforms. They worked, but not too well, so they won’t be used for now. I added a new enemy called a Spammer. It’s like the Octarian from Splatoon, only it’s a ball that hovers in the air.
+
+6.1.2023 - I added player properties, which are the things that the player is given during a level. So far, I’ve only added shields, but even those alone are awesome so far! They have spawning and breaking animations! I finished the eighth and ninth level and am now working on the tenth.
+
+6.2.2023 - I added another player property, called ‘everyrobot.’ It means that you have to defeat every single robot in the level before time runs out. A level that has the ‘everyrobot’ property will automatically have a time limit. For every 1-40 robots, the time limit increases by 75 seconds. For example, if a level has 1-40 robots, it will have a time limit of 75 seconds, whereas if it has 41-80 robots, it will have a time limit of 150 seconds. I also finished levels 10-12 and added a new boss called the Taekwondork.
+
+6.5.2023 - I finished programming the Taekwondork and added level shortening so that level codes would not be that long. I thought it might be dangerous, but so far, it has proven to be not so dangerous. I also added the win animation and parts of the win screen. The win screen shows a 3D view of the level and focuses on the point where the player reached the goal. Cool, right?
+
+6.6.2023 - I made some improvements to the spikes for the win animation.
+
+6.7.2023 - I finished the win screen.
+
+6.9.2023 - I added vine physics, as well as an advanced editing feature called ‘theme switching.’ I’ll explain that in detail in the editing tutorial.
+
+6.12.2023 - I added moving vines and vine tracks for moving vines. I also added guidelines in the editor for moving vines. You can make vines move with the ‘x[#]’ command. For each 30 steps a vine will move a full tile. When a vine moves, it will throw the player off once it reaches its limit and will move back to how it was when the player is not touching it.
+
+6.13.2023 - I fixed vine tracks overlapping in Scratch (because TurboWarp does not have sprite fencing unlike Scratch), because why not? I also worked on the level hub, and the RightSide-360 (the device from the original game that lets you select levels and much more).
+
+6.14.2023 - I added difficulty switching and the game over menu.
+
+6.15.2023 - I added replays. I also thoroughly programmed the Replay tab. You can watch your replays, load existing ones, and even save them to the game’s files. When a replay is saved to the file, it will be saved every time the game’s save data is loaded.
+
+6.16.2023 - I programmed the Stats tab. The features in this tab are the achievement map and the ability to see world records. I also added the lists for the completed levels. Even better, I fixed some bugs with some enemies. The bug where the player can double-jump off a robot after double-jumping, but not off another after double-jumping, has been fixed, and Spammers will no longer slow down the game. I also (finally) learned how to make cloud encoding case-sensitive.
+
+6.20.2023 - I added a pie chart to show how many players beat the game. It took less than 50 blocks :)
+
+6.22.2023 - I made a song for the rhythm game I'm planning to add. I also worked on a lightshow for it that uses the engine from a previous lightshow that I would have used, and also made some improvements. I also worked on half of the rhythm game title screen. Don't beat me up for adding a rhythm game.
+
+6.24.2023 - I finished the rhythm game title screen and added the joystick for smartphones and other mobile devices that don't have keyboard cases. I also had the best belated birthday party EVER!
+
+6.27.2023 - I added song info scrolling for the rhythm game. I hope I’m done with this soon, because I REALLY need to go back to the main game. I also added world records for both the rhythm game AND the main game.
+
+6.28.2023 - I made improvements to the level hub.
+
+6.29.2023 - I fixed a missing tile in the second level and made further improvements to the hub.
+
+7.1.2023 - I added Chain blocks, which are like the Koopas. You bump into it and it launches itself to destroy enemies and set off special entities that can’t be activated by the player itself. One example of these special entities (and the only one as of this moment) is the Chain switch.
+
+7.2.2023 - I added a feature where a detonating Chain switch can set off other nearby Chain switches, which can lead to some really clever chain effects!
+
+7.4.2023 - I added the main menu (finally).
+
+7.6.2023 - I added conveyor belts! They can also be activated by Chain switches by giving the switch and the conveyor belt the same data. Conveyor belts can move the player as well as entities that interact with the ground.
+
+7.7.2023 - Today was all about adding stuff. I made it so that you can unsave replays from the game’s file, and fixed a bug where a level can be selected by its glow. I also added the pause menu (at last!) and the save slots. You can have up to four save slots all the time, and you can get a slot’s code by selecting it in the slot menu and pressing the ‘Slot Code’ button. I even fixed an annoying portal bug and added the dialogue avatars! But due to the portal fix, some sample runs will have to be done over. Ah, well…
+
+7.8.2023 - I added the NPCs.
+
+7.10.2023 - I’m later adding a new expansion featuring five levels called, “Scammed by Omniscience.” Also, @_Prox_ won my 200-follower DMC, so I used the OC he made for me for an intro sequence, which can be viewed upon launching the expansion and in the Extras menu. I also added the custom level menus and improved the level editor to support mobile devices.
+
+7.12.2023 - I added a new command for the Spammer where you can use 'persistent' for endless Spamming!
+
+7.16.2023 - I added the feedback for the rhythm game.
+
+7.17.2023 - I added the noteskins and all of the beatmaps for the rhythm game.
+
+7.18.2023 - I fixed a rhythm game bug.
+
+7.23.2023 - I improved the main menu.
+
+8.1.2023 - I’ve been busy porting Rhythm Prism: Community Mix to Game Jolt and other stuff, so I haven’t really been active with this game. But I’m back now, and so is Olivia! I improved the level hub.
+
+8.3.2023 - I improved the level hub even more by making it so that NPCs appear behind the RightSide-360 screen (which was stamped). I also added the telephone feature in the level hub, where you can use it to contact companies across Right Side City. Wait, you thought I was going to make it so that you could actually call your friends?! Are you crazy?!
+
+8.4.2023 - I added launchers. They blast the player at a certain angle. Make sure to enter the following data for a launcher: “d=[direction of launch];p=[launch power].”
+
+8.6.2023 - I added a new player property called “basketball” (which is more of a game mode than it is a player property). You shoot Chain blocks at the right time to activate Chain switches, and if you miss a shot at all, you fail instantly. You also have a time limit of sixty seconds. I recommend you don’t use this player property at all unless you really know what you’re doing.
+
+8.8.2023 - I finished the basketball engine!
+
+8.9.2023 - I added a 3D effect to the levels (and added a quality level in case it causes lag). Now you can play the game in 2.5D (that is, if you want to)!
+
+8.17.2023 -  My attempt at making a perfect raycaster for the level hub in “ONLY in “OmniscienCorp” has gone wrong :(
+
+8.25.2023 - For the new level, “Fiery-Flame Facility,” I added a new entity called a Flamethrower. It makes use of the new ‘z’ system used by the 2.5D effect to throw the flames in 2.5D!
+
+8.28.2023 - Retried the raycaster script again. It worked!
+
+8.29.2023 - Added the levels and reflections to “ONLY in OmniscienCorp.”
+
+8.31.2023 - Added the level info before a level in “ONLY in OmniscienCorp.” It’s a cool glitch text that transitions in and out when the player gets close to the level.
+
+9.1.2023 - It’s officially been four months since I started working on this game. I passed the 20,000-block mark.
+
+9.7.2023 - I added drones that will try to hurt you in OmniscienCorp. So far, it’s the only entity in the game that is “ONLY in OmniscienCorp” (get it XD).
+
+9.11.2023 - I added crouching, and fixed an annoying bug with the transition when the theme switches in a level. I also made it so that if you hold ‘down’ long enough and then press ‘up’ (while still holding ‘down’), you can jump higher than a double-jump. If you release ‘down’ and then press ‘up’, you can even double-jump really high!
+
+9.12.2023 - I fixed crouching and fixed a conveyor bug. I also fixed a bug that prevented players from jumping out of the camera in certain places, and I made it so that Secret Stars can be fake. The player will be confused when they play “Into the Laboratory” now >:)
+
+9.13.2023 - YES! I finally figured out the moving platforms! Well, the horizontal ones. I came so close to the vertical ones, but I had to remove the vertical ones. I’ll try to bring them back again someday…
+
+9.14.2023 - I finished the second level for “ONLY in OmniscienCorp.”
+
+9.22.2023 - I added a new theme, and also added parallax backgrounds.
+
+9.26.2023 - I enhanced movement with the moving platforms.
+
+9.28.2023 - I coded the boss fight for Omniscience. The new DLC just got interesting. :)
+
+9.29.2023 - I finished the last level of the “ONLY in OmniscienCorp” DLC!
+
+9.30.2023 - I coded the boss fight for Adrien & Julien. It wasn’t as hard as I thought it would be. :)
+
+10.1.2023 - Five months!
+
+10.6.2023 - Fixed a bug with the boss battles for the Boomer and the Taekwondork as well as a level bug. I also implemented the Fire Badge.
+
+10.13.2023 - I made the Bass Boss, which is an epic boss battle that takes place underwater. After four months, I finally finished the fourth arc!
+
+10.14.2023 - Improved the OmniscienCorp hub.
+
+11.1.2023 - SIX MONTHS?! SIX MONTHS?!
+
+11.3.2023 - I finished the OmniscienCorp cutscene.
+
+11.6.2023 - I added movement to the Flamethrowers and the Fire Badge that lets you shoot fireballs..
+
+11.13.2023 - The game (so far) has been released for Scratch (I couldn’t add anymore without exceeding the project size limit). I added gamepad support for the Game Jolt version.
+
+11.20.2023 - The game was starting to run slow on my PC, so I made a function that increases speed.
+
+11.29.2023 - I started programming the Ice Badge. You can freeze enemies and push them.
+
+12.22.2023 - Whoops, I have not been keeping up with the devlog. Sorry about that… I’ll try to keep up more often. Anyway, today I gave the Custom Levels page a new UI redesign for the Game Jolt version.
+
+12.29.2023 - I added the Jungledrum boss, and I fixed a bug with the Chain block.
+
+12.30.2023 - I added a new badge called, “shield+.” Not only does it defend you from attacks like the normal shield, but it also absorbs the attacks and turns them into blast energy to be used when the player uses the action button.
