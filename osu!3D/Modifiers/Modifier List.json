@@ -1,1 +1,7 @@
 [
+  {
+    "name":"Full Combo",
+    "multiplier":1,
+    "description":"One miss will immediately end the game"
+  }
+]
