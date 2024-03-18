@@ -12,7 +12,7 @@
   {
     "name": "No-Fail",
     "description": "Basically makes you immortal for the entirety of the song",
-    "multiplier": 1.00,
+    "multiplier": 1.00
   },
   {
     "name": "Faster Song",
@@ -45,8 +45,8 @@
     "multiplier": 1.20
   },
   {
-      "name": "Random",
-      "description": "Shuffles the notes around randomly",
-      "multiplier": 1.00
-    }
+    "name": "Random",
+    "description": "Shuffles the notes around randomly",
+    "multiplier": 1.00
+  }
 ]
