@@ -1,7 +1,48 @@
 [
   {
-    "name":"Full Combo",
-    "multiplier":1,
-    "description":"One miss will immediately end the game"
+    "name": "Full Combo",
+    "description": "One mistake will end the game immediately, no questions asked",
+    "multiplier": 1.00
+  },
+  {
+    "name": "All Perfect",
+    "description": "One early or late hit will end the game immediately",
+    "multiplier": 1.00
+  },
+  {
+    "name": "No-Fail",
+    "description": "Basically makes you immortal for the entirety of the song",
+    "multiplier": 1.00,
+    "fail multiplier": 0.00
+  },
+  {
+    "name": "Faster Song",
+    "description": "Speeds up the song by 20%",
+    "multiplier": 1.15
+  },
+  {
+    "name": "Slower Song",
+    "description": "Slows down the song by 25%",
+    "multiplier": 0.75
+  },
+  {
+    "name": "Hidden",
+    "description": "Notes disappear before they reach you",
+    "multiplier": 1.12
+  },
+  {
+    "name": "Easy",
+    "description": "Notes are more sightreadable and easier to hit",
+    "multiplier": 0.75
+  },
+  {
+    "name": "Hard",
+    "description": "Notes are less sightreadable like that Geometry Dash meme...",
+    "multiplier": 1.12
+  },
+  {
+    "name": "Flashlight",
+    "description": "I think this one is pretty self-explanatory",
+    "multiplier": 1.20
   }
 ]
