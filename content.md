@@ -10,9 +10,7 @@ My username is pronounced el-SPEC-tro-NIZE-tar. [Download the pronounciation aud
 Audio was generated with [ReadLoud](readloud.net).
 
 # My Creations
---- creations.json
-  get key "creations"
+--- creations
 # My Socials
---- socials.json
-  get key "socials"
+--- socials
 This page will be updated regularly, so keep an eye out!
