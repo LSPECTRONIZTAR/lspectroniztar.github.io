@@ -10,25 +10,9 @@ My username is pronounced el-SPEC-tro-NIZE-tar. [Download the pronounciation aud
 Audio was generated with [ReadLoud](readloud.net).
 
 # My Creations
-``` creations.json
-{
-  "scratch": "https://scratch.mit.edu/users/LSPECTRONIZTAR/projects",
-  "gameJolt": "https://gamejolt.com/@LSPECTRONIZTAR/games",
-  "beatSaver": "https://beatsaver.com/profile/4355792",
-  "animations": "https://www.youtube.com/channel/UCLVMcNOWQlVsvBpsYjFEc9g",
-  "music": "https://www.youtube.com/channel/UCzuZes43dLEu8flHG0WDCYw"
-}
-```
+--- creations.json
+  get key "creations"
 # My Socials
-``` socials.json
-{
-  "youtube": "https://www.youtube.com/channel/UCKDZOikPpVzvxlfoU30h6Eg",
-  "youtubeGaming": "https://www.youtube.com/channel/UCitEq7Ob7FiHeepMAhXfR6A",
-  "discord": "https://discord.gg/qPDr5G3Qcn",
-  "facebook": "https://www.facebook.com/lspectroniztar/",
-  "instagram": "https://www.instagram.com/lspectroniztar/",
-  "gameJolt": "https://gamejolt.com/@LSPECTRONIZTAR",
-  "beatLeader": "https://beatleader.xyz/u/287321"
-}
-```
+--- socials.json
+  get key "socials"
 This page will be updated regularly, so keep an eye out!
