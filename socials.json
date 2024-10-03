@@ -1,12 +1,13 @@
 {
   "creations": {
-    "scratch": "https://scratch.mit.edu/users/LSPECTRONIZTAR/projects",
-    "gameJolt": "https://gamejolt.com/@LSPECTRONIZTAR/games",
-    "beatSaver": "https://beatsaver.com/profile/4355792",
+    "games": "games",
     "animations": "https://www.youtube.com/channel/UCLVMcNOWQlVsvBpsYjFEc9g",
-    "music": "https://www.youtube.com/channel/UCzuZes43dLEu8flHG0WDCYw"
+    "music": "https://www.youtube.com/channel/UCzuZes43dLEu8flHG0WDCYw",
+    "stories": "stories",
+    "beatSaver": "https://beatsaver.com/profile/4355792"
   },
   "socials": {
+    "scratch": "https://scratch.mit.edu/users/LSPECTRONIZTAR/",
     "youtube": "https://www.youtube.com/channel/UCKDZOikPpVzvxlfoU30h6Eg",
     "youtubeGaming": "https://www.youtube.com/channel/UCitEq7Ob7FiHeepMAhXfR6A",
     "discord": "https://discord.gg/qPDr5G3Qcn",
